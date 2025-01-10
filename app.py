@@ -30,4 +30,4 @@ if uploaded_image is not None:
     # Display result
     class_names = model.config.id2label
     predicted_class = class_names[predicted_class_idx]
-    st.write(f"Prediction: {predicted_class} 
+    st.write(f"Prediction: {predicted_class} ")
