@@ -1,7 +1,7 @@
 # Diabetic Retinopathy Grading with Multi-Task Learning
 
 ## Description
-Developed an end-to-end machine learning pipeline for the classification and grading of Diabetic Retinopathy (DR) using the IDRiD dataset, leveraging deep learning techniques to predict DR severity.  
+Developed an end-to-end machine learning pipeline for the classification and grading of Diabetic Retinopathy (DR) using the [IDRiD dataset](https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid), leveraging deep learning techniques to predict DR severity.  
 **Diabetic Retinopathy (DR)** is a diabetes-related eye disease that can lead to blindness if left untreated. Early detection is crucial to prevent vision loss, as timely intervention can significantly reduce the risk of severe complications. DR is classified into five stages:  
 1. **No DR**  
 2. **Mild DR**  
@@ -39,6 +39,7 @@ Here are the detection results for each of the five classes, showcasing the mode
 ### Future Work:
 - **Segmentation:**  
   Integrate a UNet++ architecture for the segmentation of DR-related lesions and optic disc localization.
+  [Why UNet++ ?](https://arxiv.org/abs/1807.10165)
   
 - **Localization:**  
   Implement localization tasks for identifying optic disc and fovea center locations using the IDRiD dataset.
